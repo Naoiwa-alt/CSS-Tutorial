@@ -3,10 +3,33 @@
 }
 
 
-/* todayクラスに適用するスタイル */
+/* todayクラスに適用するスタイル class属性todayの文字サイズを20pxにしてください。
+class属性todayの文章にある「天気」のみ背景色を#FFC0CBにしてください。
+class属性todayの文章にある「天気」のみ高さを28pxにしてください。高さを変更するためにheightプロパティ以外にも指定すべきスタイルがあることに注意してください。*/
+.today {
+  font-size: 20px;
+}
+span {
+  background-color: #FFC0CB;
+  display: inline-block;
+  font-size: 28px;
+}
+/* temperatureクラスに適用するスタイル class属性temperatureとhumidityの背景色を以下の色にしてください。temperature：#FFD8B2  humidity：#ADD8E6*/
+.temperature {
+  background-color: #FFD8B2;
+  display: inline;
+  height: 20px;
+  width: 40px;
+}
+.humidity {
+  background-color: #ADD8E6;
+  display: inline;
+  height: 20px;
+  width: 40px;
+}
+/* humidityクラスに適用するスタイル class属性temperatureとhumidityをdisplayプロパティを使用して横に並ぶようにし、幅を40px、高さを20pxにしてください。*/
 
-/* temperatureクラスに適用するスタイル */
-
-/* humidityクラスに適用するスタイル */
-
-/* img要素に適用するスタイル */
+/* img要素に適用するスタイル img要素をdisplayプロパティを使用して気温と湿度の下に表示されるようにしてください。*/
+img {
+  display: block;
+}
